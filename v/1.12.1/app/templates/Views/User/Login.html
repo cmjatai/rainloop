@@ -2,6 +2,9 @@
 	<div class="loginFormWrapper" data-bind="css: {'afterLoginHide': formHidden}">
 		<center class="plugin-mark-Login-BeforeLogo">
 			{{INCLUDE/BeforeLogo/PLACE}}
+<img class="logoImg" src="logos/logo_128.png" />
+                        <h3 style="color: white; margin: 0px; line-height: 1em;">Câmara Municipal de Jataí</h3>
+                        <a style="color: #aaa;" href="http://www.jatai.go.leg.br">Voltar para o Portal</a><br><br>
 			<!-- ko if: logoImg -->
 			<div class="logoWrapper plugin-mark-Login-AfterLogo">
 				<img class="logoImg" data-bind="attr: {'src': logoImg }" />
@@ -116,6 +119,11 @@
 						</div>
 					</div>
 				</form>
+                                        <div style="color: #aaa;">
+                                            <a style="color: #eee;" href="https://correioadm.jatai.go.leg.br">Para alterar sua senha, acesse a área administrativa!</a>
+                                            <br>
+                                            <small>Se você esqueceu sua senha, entre em contato com o Departamento de Informática da Câmara Municipal de Jataí para que reinicie sua senha.</small>
+                                        </div>
 			</div>
 			<div class="e-powered thm-powered" data-bind="visible: loginPowered">Powered by <a href="http://www.rainloop.net" target="_blank">RainLoop</a></div>
 			<div class="e-mobile-switcher thm-mobile-switcher">
